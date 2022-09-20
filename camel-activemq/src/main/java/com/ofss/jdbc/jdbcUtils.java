@@ -52,7 +52,7 @@ public class jdbcUtils {
 
     }
 
-    public static void insertIntoAudit(Exchange exchange, UUID TrackingId, UUID HermesId) {
+    public static void insertIntoAudit(Exchange exchange, UUID TrackingId, UUID HermesId, int StageId) {
 
         //Creating a parameterized query with '?'
         String sqlQuery = "INSERT INTO AuditTracking VALUES(?,?,?,?,?)";
@@ -70,8 +70,13 @@ public class jdbcUtils {
 
             // Extracting data from Exchange object
             String Payload = exchange.getIn().getBody(String.class);
-            String Headers = exchange.getIn().getHeaders().toString();
-            int StageId = 1;
+            String Headers = "{ " +
+                    "JMSCorrelationID=" + exchange.getIn().getHeader("JMSCorrelationID", String.class) +
+                    ", JMSCorrelationIDAsBytes=" + exchange.getIn().getHeader("JMSCorrelationIDAsBytes", String.class) +
+                    ", JMSReplyTo=" + exchange.getIn().getHeader("JMSReplyTo", String.class) +
+                    ", CamelFileName=" + exchange.getIn().getHeader("CamelFileName", String.class) +
+                    ", JMSDestination=" + exchange.getIn().getHeader("JMSDestination", String.class) +
+                    " }" ;
 
             // Substituting the values in sqlQuery
             pstmt.setObject(1,TrackingId);
@@ -85,35 +90,6 @@ public class jdbcUtils {
 
         }
         catch(Exception e) {
-            e.printStackTrace();
-        }
-    }
-    // Add String id = TrackingId with regex that removes special characters
-    public static void updatePayload(Exchange exchange, UUID TrackingId) {
-        String sqlQuery = "UPDATE AuditTracking SET Payload=?, StageId=? WHERE TrackingId=?";
-
-        //specifying primary key
-        String[] pkColumns = {"TrackingId"};
-
-        try(
-                //Load the driver and establish a connection
-                Connection conn = jdbcUtils.getConnection();
-
-                //Obtain the statement
-                PreparedStatement pstmt=conn.prepareStatement(sqlQuery,pkColumns)
-        ){
-
-            String Payload = exchange.getIn().getBody(String.class);
-            int StageId = 2;
-
-            pstmt.setString(1, Payload);
-            pstmt.setInt(2, StageId);
-            pstmt.setObject(3,TrackingId);
-
-            // Executing the Query
-            int updateCount = pstmt.executeUpdate();
-
-        }catch(Exception e) {
             e.printStackTrace();
         }
     }

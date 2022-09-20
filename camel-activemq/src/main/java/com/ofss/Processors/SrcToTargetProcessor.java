@@ -21,6 +21,7 @@ public class SrcToTargetProcessor implements Processor {
 
         // Setting JMSCorrelationID
         exchange.getIn().setHeader("JMSCorrelationID", CorrId.getCorrId());
+        exchange.getIn().setHeader("JMSCorrelationIDAsBytes", CorrId.getCorrId());
         exchange.getIn().setHeader("JMSReplyTo", "TargetQueueAck");
 
         System.out.println("\nDATA FROM SOURCE QUEUE SENT TOWARDS TARGET QUEUE WITH :- ");
@@ -29,13 +30,13 @@ public class SrcToTargetProcessor implements Processor {
         System.out.println("JMSReplyTo: " + exchange.getIn().getHeader("JMSReplyTo") + "\n");
 
         UUID HermesId = UUID.randomUUID();
-        UUID TrackingId = UUID.randomUUID();
+        UUID TrackingId1 = UUID.randomUUID();
 
         //Inserting Data into Summary table
         jdbcUtils.insertIntoSummary(exchange, HermesId);
 
         //Inserting Data into AuditTracking table
-        jdbcUtils.insertIntoAudit(exchange, TrackingId, HermesId);
+        jdbcUtils.insertIntoAudit(exchange, TrackingId1, HermesId, 1);
 
         //Mapping the data from source
         ObjectMapper mapper = new ObjectMapper();
@@ -76,8 +77,9 @@ public class SrcToTargetProcessor implements Processor {
         // setting the transformed body as the body of exchange object
         exchange.getIn().setBody(outputJson);
 
-        //Updating the Payload in the DB
-        jdbcUtils.updatePayload(exchange, TrackingId );
+        // Getting a TrackingId for StageId=2
+        UUID TrackingId2 = UUID.randomUUID();
+        jdbcUtils.insertIntoAudit(exchange, TrackingId2, HermesId, 2);
 
         System.out.println("--------------------");
         System.out.println("TRANSFORMED JSON OBJECT");
