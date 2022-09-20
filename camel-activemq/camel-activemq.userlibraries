@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.apache.camel:camel-core:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-core/3.17.0/camel-core-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-core-engine:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-core-engine/3.17.0/camel-core-engine-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-api:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-api/3.17.0/camel-api-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-base-engine:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-base-engine/3.17.0/camel-base-engine-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-base:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-base/3.17.0/camel-base-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-core-reifier:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-core-reifier/3.17.0/camel-core-reifier-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-core-processor:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-core-processor/3.17.0/camel-core-processor-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-management-api:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-management-api/3.17.0/camel-management-api-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-util:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-util/3.17.0/camel-util-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-core-languages:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-core-languages/3.17.0/camel-core-languages-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-core-model:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-core-model/3.17.0/camel-core-model-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-bean:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-bean/3.17.0/camel-bean-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-browse:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-browse/3.17.0/camel-browse-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-cluster:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-cluster/3.17.0/camel-cluster-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-controlbus:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-controlbus/3.17.0/camel-controlbus-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-dataformat:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-dataformat/3.17.0/camel-dataformat-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-dataset:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-dataset/3.17.0/camel-dataset-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-direct:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-direct/3.17.0/camel-direct-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-directvm:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-directvm/3.17.0/camel-directvm-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-file:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-file/3.17.0/camel-file-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-health:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-health/3.17.0/camel-health-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-language:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-language/3.17.0/camel-language-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-log:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-log/3.17.0/camel-log-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-mock:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-mock/3.17.0/camel-mock-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-ref:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-ref/3.17.0/camel-ref-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-rest:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-rest/3.17.0/camel-rest-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-tooling-model:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-tooling-model/3.17.0/camel-tooling-model-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-util-json:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-util-json/3.17.0/camel-util-json-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-saga:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-saga/3.17.0/camel-saga-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-scheduler:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-scheduler/3.17.0/camel-scheduler-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-seda:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-seda/3.17.0/camel-seda-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-stub:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-stub/3.17.0/camel-stub-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-timer:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-timer/3.17.0/camel-timer-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-validator:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-validator/3.17.0/camel-validator-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-vm:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-vm/3.17.0/camel-vm-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-xpath:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-xpath/3.17.0/camel-xpath-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-xslt:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-xslt/3.17.0/camel-xslt-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-xml-jaxb:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-xml-jaxb/3.17.0/camel-xml-jaxb-3.17.0.jar" />
+  </library>
+  <library name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3">
+    <archive path="C:/Users/arypande/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar" />
+  </library>
+  <library name="Maven: jakarta.activation:jakarta.activation-api:1.2.2">
+    <archive path="C:/Users/arypande/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.bind:jaxb-core:2.3.0">
+    <archive path="C:/Users/arypande/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.bind:jaxb-impl:2.3.3">
+    <archive path="C:/Users/arypande/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar" />
+  </library>
+  <library name="Maven: com.sun.activation:jakarta.activation:1.2.2">
+    <archive path="C:/Users/arypande/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-xml-jaxp:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-xml-jaxp/3.17.0/camel-xml-jaxp-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-xml-io-util:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-xml-io-util/3.17.0/camel-xml-io-util-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:1.7.36">
+    <archive path="C:/Users/arypande/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-jms:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-jms/3.17.0/camel-jms-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-support:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-support/3.17.0/camel-support-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-spring:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-spring/3.17.0/camel-spring-3.17.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:5.3.19">
+    <archive path="C:/Users/arypande/.m2/repository/org/springframework/spring-core/5.3.19/spring-core-5.3.19.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jcl:5.3.19">
+    <archive path="C:/Users/arypande/.m2/repository/org/springframework/spring-jcl/5.3.19/spring-jcl-5.3.19.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:5.3.19">
+    <archive path="C:/Users/arypande/.m2/repository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:5.3.19">
+    <archive path="C:/Users/arypande/.m2/repository/org/springframework/spring-expression/5.3.19/spring-expression-5.3.19.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jms:5.3.19">
+    <archive path="C:/Users/arypande/.m2/repository/org/springframework/spring-jms/5.3.19/spring-jms-5.3.19.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-messaging:5.3.19">
+    <archive path="C:/Users/arypande/.m2/repository/org/springframework/spring-messaging/5.3.19/spring-messaging-5.3.19.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:5.3.19">
+    <archive path="C:/Users/arypande/.m2/repository/org/springframework/spring-context/5.3.19/spring-context-5.3.19.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-tx:5.3.19">
+    <archive path="C:/Users/arypande/.m2/repository/org/springframework/spring-tx/5.3.19/spring-tx-5.3.19.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-beans:5.3.19">
+    <archive path="C:/Users/arypande/.m2/repository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19.jar" />
+  </library>
+  <library name="Maven: org.apache.geronimo.specs:geronimo-jms_2.0_spec:1.0-alpha-2">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/geronimo/specs/geronimo-jms_2.0_spec/1.0-alpha-2/geronimo-jms_2.0_spec-1.0-alpha-2.jar" />
+  </library>
+  <library name="Maven: org.apache.activemq:activemq-camel:5.7.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/activemq/activemq-camel/5.7.0/activemq-camel-5.7.0.jar" />
+  </library>
+  <library name="Maven: org.apache.activemq:activemq-core:5.7.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar" />
+  </library>
+  <library name="Maven: org.apache.activemq:kahadb:5.7.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/activemq/kahadb/5.7.0/kahadb-5.7.0.jar" />
+  </library>
+  <library name="Maven: org.apache.activemq.protobuf:activemq-protobuf:1.1">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar" />
+  </library>
+  <library name="Maven: org.fusesource.mqtt-client:mqtt-client:1.3">
+    <archive path="C:/Users/arypande/.m2/repository/org/fusesource/mqtt-client/mqtt-client/1.3/mqtt-client-1.3.jar" />
+  </library>
+  <library name="Maven: org.fusesource.hawtdispatch:hawtdispatch-transport:1.11">
+    <archive path="C:/Users/arypande/.m2/repository/org/fusesource/hawtdispatch/hawtdispatch-transport/1.11/hawtdispatch-transport-1.11.jar" />
+  </library>
+  <library name="Maven: org.fusesource.hawtdispatch:hawtdispatch:1.11">
+    <archive path="C:/Users/arypande/.m2/repository/org/fusesource/hawtdispatch/hawtdispatch/1.11/hawtdispatch-1.11.jar" />
+  </library>
+  <library name="Maven: commons-net:commons-net:3.1">
+    <archive path="C:/Users/arypande/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.jar" />
+  </library>
+  <library name="Maven: org.jasypt:jasypt:1.9.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.jar" />
+  </library>
+  <library name="Maven: org.apache.activemq:activemq-broker:5.10.1">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/activemq/activemq-broker/5.10.1/activemq-broker-5.10.1.jar" />
+  </library>
+  <library name="Maven: org.apache.activemq:activemq-openwire-legacy:5.10.1">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/activemq/activemq-openwire-legacy/5.10.1/activemq-openwire-legacy-5.10.1.jar" />
+  </library>
+  <library name="Maven: org.apache.activemq:activemq-client:5.10.1">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/activemq/activemq-client/5.10.1/activemq-client-5.10.1.jar" />
+  </library>
+  <library name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar" />
+  </library>
+  <library name="Maven: org.fusesource.hawtbuf:hawtbuf:1.10">
+    <archive path="C:/Users/arypande/.m2/repository/org/fusesource/hawtbuf/hawtbuf/1.10/hawtbuf-1.10.jar" />
+  </library>
+  <library name="Maven: org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.activemq:activemq-pool:5.10.1">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/activemq/activemq-pool/5.10.1/activemq-pool-5.10.1.jar" />
+  </library>
+  <library name="Maven: org.apache.activemq:activemq-jms-pool:5.10.1">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/activemq/activemq-jms-pool/5.10.1/activemq-jms-pool-5.10.1.jar" />
+  </library>
+  <library name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.0.1B_spec/1.0.1/geronimo-jta_1.0.1B_spec-1.0.1.jar" />
+  </library>
+  <library name="Maven: commons-pool:commons-pool:1.6">
+    <archive path="C:/Users/arypande/.m2/repository/commons-pool/commons-pool/1.6/commons-pool-1.6.jar" />
+  </library>
+  <library name="Maven: org.apache.camel:camel-jdbc:3.17.0">
+    <archive path="C:/Users/arypande/.m2/repository/org/apache/camel/camel-jdbc/3.17.0/camel-jdbc-3.17.0.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.0">
+    <archive path="C:/Users/arypande/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar" />
+  </library>
+  <library name="Maven: com.microsoft.sqlserver:mssql-jdbc:8.2.1.jre11">
+    <archive path="C:/Users/arypande/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/8.2.1.jre11/mssql-jdbc-8.2.1.jre11.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.0">
+    <archive path="C:/Users/arypande/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.0">
+    <archive path="C:/Users/arypande/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar" />
+  </library>
+</eclipse-userlibraries>
+
